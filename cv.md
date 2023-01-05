@@ -1,6 +1,6 @@
 ---
 # Konstantin Terekhov
-![Photo](https://github.com/terexxof/rsschool-cv/gh-pages/photo.png "Photo")
+![Photo](https://github.com/terexxof/rsschool-cv/gh-pages/Фото.png "Photo")
 ---
 ## Junior Frontend Developer
 ---
