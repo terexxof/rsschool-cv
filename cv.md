@@ -2,7 +2,7 @@
 # Konstantin Terekhov
 ---
 
-![Photo](Фото.png "Photo")
+![Photo](photo.png "Photo")
 
 ---
 ## Junior Frontend Developer
