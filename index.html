@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#english" class="nav-link">English</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <section class="section section-profile" id="profile">
+        <img src="./assets/img/photo.png" alt="My Photo" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Konstantin Terekhov</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Novosibirsk, Russia
+          </li>
+          <li class="section-item contacts-item">
+            E-mail: <a href="mailto:79137550477@yandex.ru" title="'email">79137550477@yandex.ru</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/terexxof" title="github">terexxof</a>
+          </li>
+          <li class="section-item contacts-item">
+            Telegram: <a href="https://t.me/terexxof" title="telegram">@terexxof</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.gg/" title="discord">terexxof#</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I am passionate about computer science and programming. My main goal
+          is to become a full-fledged specialist in the field of web
+          development.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Skill 1:<span> Skills</span>
+          </li>
+          <li class="section-item">
+            Skill 2:<span> Skills</span>
+          </li>
+          <li class="section-item">
+            Skill 3:<span> Skills</span>
+          </li>
+          <li class="section-item">
+            Skill 4:<span> Skills</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre">
+          <code>
+const countChars = (str, char) => {
+  let i = 0;
+  let count = 0;
+
+  while (i < str.length) {
+    if (str[i].toLowerCase() === char.toLowerCase()) {
+      count++;
+    }
+    i++;
+  }
+
+  return count;
+};
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            School 1<span> - Course 1</span>
+          </li>
+          <li class="section-item">
+            School 2<span> - Course 2</span>
+          </li>
+          <li class="section-item">
+            School 3<span> - Course 3</span>
+          </li>
+          <li class="section-item">
+            School 4<span> - Course 4</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <a href="#">CV</a>
+          </li>
+          <li class="section-item">
+            <a href="#">Plants</a>
+          </li>
+          <li class="section-item">
+            <a href="#">Travel</a>
+          </li>
+          <li class="section-item">
+            <a href="#">CodeJam</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Siberian State University of Geosystems and Technologies</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B2 - Upper-Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        © 2023
+        <a href="https://github.com/terexxof" class="github nav-link">terexxof</a>
+      </div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
