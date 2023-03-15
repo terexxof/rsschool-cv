@@ -228,23 +228,23 @@ body {
 
 .contacts-item:nth-child(1):before {
   background-image: url("./assets/svg/location.svg");
-  }
-  
-  .contacts-item:nth-child(2):before {
+}
+
+.contacts-item:nth-child(2):before {
   background-image: url("./assets/svg/email.svg");
-  }
-  
-  .contacts-item:nth-child(3):before {
+}
+
+.contacts-item:nth-child(3):before {
   background-image: url("./assets/svg/github.svg");
-  }
-  
-  .contacts-item:nth-child(4):before {
+}
+
+.contacts-item:nth-child(4):before {
   background-image: url("./assets/svg/telegram.svg");
-  }
-  
-  .contacts-item:nth-child(5):before {
+}
+
+.contacts-item:nth-child(5):before {
   background-image: url("./assets/svg/discord.svg");
-  }
+}
 
 .footer {
   background-color: #829985;
@@ -279,7 +279,7 @@ body {
   }
 }
 
-/** Adaptive 
+/** Adaptive
 .toggle {
   display: none;
   flex-direction: column;
@@ -370,3 +370,4 @@ body {
     letter-spacing: 4px;
   }
 }
+**/
