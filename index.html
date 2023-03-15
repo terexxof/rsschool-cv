@@ -101,11 +101,11 @@
         <h2 class="section-title">Code</h2>
         <pre class="pre">
           <code>
-const countChars = (str, char) => {
+const countChars = (str, char) =&gt; {
   let i = 0;
   let count = 0;
 
-  while (i &lt str.length) {
+  while (i &lt; str.length) {
     if (str[i].toLowerCase() === char.toLowerCase()) {
       count++;
     }
